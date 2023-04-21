@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
+ * Description: get the last digit of a number
  * Return : Always 0 (Success)
  */
 
@@ -24,7 +24,7 @@ int main(void)
 	{
 		printf("Lastdigit  of %d is %d and is 0\n", n, lastnum);
 	}
-	else if (lastnum < 6 && lastnum != 0)
+	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastnum);
 	}
