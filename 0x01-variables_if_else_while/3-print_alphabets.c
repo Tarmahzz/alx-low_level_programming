@@ -6,20 +6,20 @@
 */
 int main(void)
 {
-	int loweCase = 'a';
-	int upperCase = 'A';
+	char c;
+	char d;
 
-	while (lowerCase <= 'z')
-	{
-		putchar(lowerCase);
-		lowerCase += 1;
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z'){
+			putchar(c);
+			c++;
+		}
+	while (d <= 'z') {
+		putchar (c);
+		d++;
 	}
-	while (upperCase <= 'Z')
-	{
-		putchar (upperCase);
-		upperCase += 1;
-	}
-	putchar('\n');
-	return (0);
+	return (0)
 }
 
